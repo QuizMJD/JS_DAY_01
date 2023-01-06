@@ -13,17 +13,39 @@
 // else {
 //     alert( " Không được để trống !! ");
 // }
+//-------------------------------------------------------------
+
 while (true) {
-    var celsius = parseInt(prompt("Vui lòng nhập độ C: "));
-    if (celsius != null && celsius != undefined) {
-        var fahrenheit = celsius * 18 / 10 + 32;
-        alert(
-            celsius +
-            " Độ C sao thi chuyển thành F là : " +
-            fahrenheit
-        );
+     var celsius = parseInt(prompt("Vui lòng nhập độ C: "));
+    if (celsius) {
+
         break;
     }
     alert("Không được để trống !!");
-}
+
+
+    }
+var fahrenheit = celsius * 18 / 10 + 32;
+alert(
+    celsius +
+    " Độ C sao thi chuyển thành F là : " +
+    fahrenheit);
+
+// var celsius;
+//
+// for (;;) {
+//     celsius = parseInt(prompt("Vui lòng nhập độ C: "));
+//     if (celsius) {
+//         break;
+//     }
+//     alert("Không được để trống !!");
+// }
+//
+// var fahrenheit = celsius * 18 / 10 + 32;
+// alert(
+//     celsius +
+//     " Độ C sao thi chuyển thành F là : " +
+//     fahrenheit
+// );
+
 
